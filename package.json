@@ -17,7 +17,7 @@
 		"test": "xo && ava",
 		"build": "webpack"
 	},
-	"files": ["dist/main.js"],
+	"files": ["dist/index.js"],
 	"keywords": [
 		"browser",
 		"querystring",

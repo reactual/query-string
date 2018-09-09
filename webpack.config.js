@@ -3,7 +3,6 @@ const path = require('path')
 module.exports = {
 	entry: './index.js',
 	mode: 'production',
-	// mode: 'development',
 	module: {
 		rules: [
 			{
@@ -18,7 +17,7 @@ module.exports = {
 		]
 	},
 	output: {
-		filename: 'main.js',
+		filename: 'index.js',
 		path: path.resolve(__dirname, 'dist')
 	}
 }
